@@ -1,0 +1,85 @@
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-image: url('https://img.freepik.com/free-photo/elderly-man-is-using-mobile-phone_53876-30130.jpg?w=826&t=st=1710022310~exp=1710022910~hmac=6709da3f15d4b5a20e661aafe4b84530671be0bdbdf5384bb731aed03d679af3');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50; 
+    color: #ecf0f1; 
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #34495e; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+}
+h1 {
+    font-size: 24px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+h2 {
+    color: #153144;
+}
+
+p {
+    color: #555;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+}
+
+#news-detail {
+    margin-top: 20px;
+}
+
+#news-detail h2 {
+    color: #3498db;
+}
+
+#news-detail p {
+    color: #555;
+}
+
+#news-detail a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#news-detail a:hover {
+    text-decoration: underline;
+}
